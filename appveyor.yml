@@ -12,8 +12,8 @@ before_build:
   - python -m venv venv
   - venv\Scripts\activate
   - pip install -r requirements.txt
-  - echo "GH_USERNAME: $GH_USERNAME"
-  - echo "GH_TOKEN: $GH_TOKEN"
+  - echo "GH_TOKEN: $GH_TOKEN"  # Проверим значение переменной
+
 
 
 build_script:
