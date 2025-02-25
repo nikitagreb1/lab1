@@ -1,7 +1,7 @@
 version: 1.0.{build}
 
 os:
-  - Windows 10
+  - Visual Studio 2019  # Используем Visual Studio 2019
 
 environment:
   matrix:
