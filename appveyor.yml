@@ -6,6 +6,8 @@ os:
 environment:
   matrix:
     - PYTHON: "3.9"
+  my_variable:
+    secure: ilEIDTjZgs8wdtxCzrhERImNPNEccdVEt9FtDTVENqbs0jCNbsk6GRcAH0Q+TQjMVaYsOAUyFkJIa6JTnPsymLUF6wjTXz9Dy0PEMdSHvlL5yACPkKG0vxuCZ7+T/Xns
 
 before_build:
   - echo "Setting up the environment"
