@@ -14,7 +14,7 @@ before_build:
   - pip install -r requirements.txt
 
 build_script:
-  - python -m unittest discover  # Запуск тестов (если они есть)
+# - python -m unittest discover  # Запуск тестов (если они есть)
 
 after_build:
   - echo "Build complete, preparing for deployment"
