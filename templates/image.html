@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resized Image</title>
+</head>
+<body>
+    <h1>Resized Image</h1>
+    <img src="{{ url_for('static', filename=filename) }}" alt="Resized Image">
+
+    <h2>Color Distribution - Original Image</h2>
+    <img src="{{ url_for('static', filename='original_histogram.png') }}" alt="Original Image Histogram">
+
+    <h2>Color Distribution - Resized Image</h2>
+    <img src="{{ url_for('static', filename='resized_histogram.png') }}" alt="Resized Image Histogram">
+
+    <br>
+    <a href="/">Go Back</a>
+</body>
+</html>
