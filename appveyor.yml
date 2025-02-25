@@ -12,6 +12,9 @@ before_build:
   - python -m venv venv
   - venv\Scripts\activate
   - pip install -r requirements.txt
+  - echo "GH_USERNAME: $GH_USERNAME"
+  - echo "GH_TOKEN: $GH_TOKEN"
+
 
 build_script:
   - echo "Running custom build script"
@@ -27,3 +30,4 @@ deploy:
   repository: "nikitagreb1/lab1"
   on:
     branch: main
+
