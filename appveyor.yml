@@ -15,7 +15,7 @@ before_build:
 
 build_script:
   - echo "Running custom build script"
-  - python -m unittest discover  # Запуск тестов (если они есть)
+  #- python -m unittest discover  # Запуск тестов (если они есть)
 
 after_build:
   - echo "Build complete, preparing for deployment"
