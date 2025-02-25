@@ -26,4 +26,4 @@ deploy:
   password: $GH_TOKEN
   repository: "nikitagreb1/lab1"
   on:
-    branch: main
+    branch: master
